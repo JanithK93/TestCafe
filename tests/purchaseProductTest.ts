@@ -11,3 +11,7 @@ test('Assert item name and price', async (t) => {
     await inventoryPage.verifyItemNameAndPrice();
 });
 
+test('Add items to cart', async (t) => {
+    await inventoryPage.addItemsToCart();
+});
+
