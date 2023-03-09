@@ -32,34 +32,3 @@ test('Purchase Items from the website', async (t) => {
     await checkoutCompletePage.verifyPurchaseSuccess();
 });
 
-// test('Add items to cart', async (t) => {
-//     await inventoryPage.addItemsToCart();
-// });
-
-// test('Assert items in the cart', async (t) => {
-//     await cartPage.verifyItemsInCart();
-// });
-
-// test('Proceed with checkout', async(t) => {
-//     await cartPage.clickCheckout();
-// });
-
-// test('Assert checkoutPage', async (t) => {
-//     await checkoutPage.verifyPageElements();
-// });
-
-// test('Fill customer details to purchase items', async (t) => {
-//     randomFirstName = faker.name.firstName();
-//     randomLastName = faker.name.lastName();
-//     randomZipCode = faker.number.zipCode();
-//     await checkoutPage.fillCustomerDetails(randomFirstName, randomLastName, randomZipCode);
-// });
-
-// test('Assert checkout overview page', async (t) => {
-//    await checkoutPage.verifyCheckoutOverviewDetails();
-//    await checkoutPage.completePurchase();
-// });
-
-// test('Assert complete purchase response', async (t) => {
-//    await checkoutCompletePage.verifyPurchaseSuccess();
-// });
