@@ -5,6 +5,7 @@ class loginPage{
     password: Selector;
     loginBtn: Selector;
     pageName: Selector;
+    
     constructor(){
         this.userName = Selector('#user-name');
         this.password = Selector('#password');
