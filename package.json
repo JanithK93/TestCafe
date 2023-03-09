@@ -1,0 +1,21 @@
+{
+  "name": "testcafeproj",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome tests/ -s takeOnFails=true",
+    "test:chrome:reports": "testcafe chrome tests/* --reporter html:reports/report.html",
+    "test:chrome:reports:ss": "testcafe chrome tests/*.ts -s takeOnFails=true --reporter html:reports/report.html"
+  },
+  "author": "Janith",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "testcafe": "^2.4.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
